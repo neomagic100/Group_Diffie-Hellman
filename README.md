@@ -20,11 +20,11 @@ QUERY KeyID<br><br>
 The first format specifies adding a user. USER1 represents the sponsor for the new user while 
 USER2 represents the new user to be added. Both users must pick new secret keys, which are 
 secretkey1 and secretkey2, respectively. KeyID will be a string of 1 to 20 uppercase characters 
-labeling that particular shared key.<br>
-The second format describes deleting USER1. <br>
+labeling that particular shared key.<br><br>
+The second format describes deleting USER1. <br><br>
 The third format makes a query for a particular shared key with the id KeyID. For each of these 
 lines, your program should output on a single line the value of the specified key at that point in 
-time.<br>
+time.<br><br>
 You are guaranteed that all queries are for valid keys in the tree, that all add commands list a 
 valid user for USER1 and a new user for USER2. Each different user will have a unique 
 identifying string as will each key. After the first operation, the tree will always have at least two 
